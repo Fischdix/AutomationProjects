@@ -1,2 +1,1 @@
-# AutomationProjects
-Various scripts in various languages to bring automation to mundane tasks
+This Batch script checks all of the specified files in the given directory, stores everything up to the first delimiter, creates a folder under that name, and stores all respective files in their folders.

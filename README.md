@@ -1,2 +1,3 @@
-# AutomationProjects
-Various scripts in various languages to bring automation to mundane tasks
+The Batch script: file-sorter.bat checks all of the specified files in the given directory, stores everything up to the first delimiter, creates a folder under that name, and stores all respective files in their folders.
+
+The Bash script: filegrab.sh is a one liner script that moves to designated directory, searches for the files containing "partoffilename" that were created in the past 8 days and copies those files to /file/path/data, moves to data directory, loops through every filename and strips the first 4 characters out of the file name and finally uses scp to bring those files in from your remote server to your local host machine.
